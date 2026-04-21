@@ -1,0 +1,26 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  width: 400px;
+  height: 400px;
+  background-color: #444;
+  border: 5px solid #222;
+  margin: 20px auto;
+}
+
+.cell {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.character-img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
